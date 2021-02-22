@@ -1,0 +1,20 @@
+@import '../var/_var';
+@import '../mixin/_mixin';
+
+.mdservices-section{
+    &__card{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: inline-block;
+        background: $main-background-color;
+        justify-content: space-between;
+        margin: 0 auto;
+        &:hover{
+             background: $main-color-red;
+             svg path{
+                 fill: white;
+             }
+         }
+    }
+}

@@ -1,0 +1,22 @@
+@import '../var/_var';
+@import '../mixin/_mixin';
+.team-section{
+    &__cover{
+        display: flex;
+        justify-content: space-between;
+        &-btn{
+            @include red-btn;
+        }
+    }
+    &__item{
+    height: 480px;
+    width: 370px;
+    background: $main-background-color;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.101081);
+    border-radius: 16px;
+    &-img{
+        align-items: center;
+    }
+    }
+   
+}

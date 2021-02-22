@@ -1,0 +1,12 @@
+@mixin red-btn{
+    color: #FFFFFF;
+    background-color: $main-color-red;
+    text-decoration: unset;
+    font-size: 18px;
+    line-height: 33px;
+    height: 48px;
+    border-radius: 24px;
+    text-align: center;
+    padding: 5px 30px;
+    display: inline-block;
+}
